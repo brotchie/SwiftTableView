@@ -7,7 +7,7 @@ enum CellData {
     case ImageCell(title: String, imageName: String, url: String)
     
     /* Computed property that grabs the url associated value out of the
-       enum object. */
+       enum object (perhaps there's a better way of doing this?) */
     var url: String {
         get {
             switch(self) {
