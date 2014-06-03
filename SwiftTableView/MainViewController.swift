@@ -1,7 +1,7 @@
 import UIKit
 
 /* Cells in table view can either have a description or an image. Demonstrates
-   an agebraic data type. */
+   an algebraic data type. */
 enum CellData {
     case DescriptiveCell(title: String, description: String, url: String)
     case ImageCell(title: String, imageName: String, url: String)
